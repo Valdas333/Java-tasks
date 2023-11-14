@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="08_3_06.Stack" />
+        <module name="08_3_09.SantasWorkshop" />
+        <module name="08_3_05.Menu" />
+        <module name="08_3_04.Archive" />
+        <module name="08_3_08.PrintingACollection" />
+        <module name="08_3_10.LongestInCollection" />
+        <module name="08_3_02.IdenticalTwins" />
+        <module name="08_3_01.Song" />
+        <module name="08_3_03.Books" />
+        <module name="08_3_12.CargoHold" />
+        <module name="08_3_11.HeightOrder" />
+        <module name="08_3_07.MessagingService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="08_3_01.Song" target="1.8" />
+      <module name="08_3_02.IdenticalTwins" target="1.8" />
+      <module name="08_3_03.Books" target="1.8" />
+      <module name="08_3_04.Archive" target="1.8" />
+      <module name="08_3_05.Menu" target="1.8" />
+      <module name="08_3_06.Stack" target="1.8" />
+      <module name="08_3_07.MessagingService" target="1.8" />
+      <module name="08_3_08.PrintingACollection" target="1.8" />
+      <module name="08_3_09.SantasWorkshop" target="1.8" />
+      <module name="08_3_10.LongestInCollection" target="1.8" />
+      <module name="08_3_11.HeightOrder" target="1.8" />
+      <module name="08_3_12.CargoHold" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

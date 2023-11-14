@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/08_3_01.Song/08_3_01.Song.iml" filepath="$PROJECT_DIR$/08_3_01.Song/08_3_01.Song.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_3_02.IdenticalTwins/08_3_02.IdenticalTwins.iml" filepath="$PROJECT_DIR$/08_3_02.IdenticalTwins/08_3_02.IdenticalTwins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_3_03.Books/08_3_03.Books.iml" filepath="$PROJECT_DIR$/08_3_03.Books/08_3_03.Books.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_3_04.Archive/08_3_04.Archive.iml" filepath="$PROJECT_DIR$/08_3_04.Archive/08_3_04.Archive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_3_05.Menu/08_3_05.Menu.iml" filepath="$PROJECT_DIR$/08_3_05.Menu/08_3_05.Menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_3_06.Stack/08_3_06.Stack.iml" filepath="$PROJECT_DIR$/08_3_06.Stack/08_3_06.Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_3_07.MessagingService/08_3_07.MessagingService.iml" filepath="$PROJECT_DIR$/08_3_07.MessagingService/08_3_07.MessagingService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_3_08.PrintingACollection/08_3_08.PrintingACollection.iml" filepath="$PROJECT_DIR$/08_3_08.PrintingACollection/08_3_08.PrintingACollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_3_09.SantasWorkshop/08_3_09.SantasWorkshop.iml" filepath="$PROJECT_DIR$/08_3_09.SantasWorkshop/08_3_09.SantasWorkshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_3_10.LongestInCollection/08_3_10.LongestInCollection.iml" filepath="$PROJECT_DIR$/08_3_10.LongestInCollection/08_3_10.LongestInCollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_3_11.HeightOrder/08_3_11.HeightOrder.iml" filepath="$PROJECT_DIR$/08_3_11.HeightOrder/08_3_11.HeightOrder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_3_12.CargoHold/08_3_12.CargoHold.iml" filepath="$PROJECT_DIR$/08_3_12.CargoHold/08_3_12.CargoHold.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/08_praktiniai_oop_3.iml" filepath="$PROJECT_DIR$/.idea/08_praktiniai_oop_3.iml" />
+    </modules>
+  </component>
+</project>
