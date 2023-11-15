@@ -7,6 +7,7 @@ public class ChangeHistory {
     public ChangeHistory()
     {
         history = new ArrayList<>();
+
     }
 
     public void add(double status){
@@ -18,7 +19,7 @@ public class ChangeHistory {
     }
 
     public String toString(){
-        return history.toString();
+        return this.history.toString();
     }
 
     public double maxValue(){
@@ -48,5 +49,6 @@ public class ChangeHistory {
         }
         return sum/history.size();
     }
+
 
 }

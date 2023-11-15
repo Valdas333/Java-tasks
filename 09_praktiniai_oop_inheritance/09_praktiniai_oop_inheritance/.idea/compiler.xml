@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="09_03.Warehousing" />
         <module name="09_02.PersonAndSubclasses" />
+        <module name="09_03.Warehousing" />
         <module name="09_01.ABC" />
       </profile>
     </annotationProcessing>

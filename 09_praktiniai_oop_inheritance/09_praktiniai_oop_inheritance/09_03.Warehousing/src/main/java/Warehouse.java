@@ -48,7 +48,6 @@ public class Warehouse {
             this.balance = 0.0;
             return allThatWeCan;
         }
-
         this.balance = this.balance - amount;
         return amount;
     }
