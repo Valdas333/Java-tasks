@@ -1,11 +1,12 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class ChangeHistory {
 
     private ArrayList<Double> history;
 
-    public ChangeHistory(){
+    public ChangeHistory()
+    {
+        history = new ArrayList<>();
     }
 
     public void add(double status){
@@ -27,17 +28,17 @@ public class ChangeHistory {
                  maxValue = value;
             }
         }
-        return maxValue <= 0 ? maxValue : 0;
+        return maxValue;
     }
 
     public double minValue(){
-        double minValue = 0;
+        double minValue = history.get(0);
         for (Double value:
-                history) {if (value > minValue){
+                history) {if (value < minValue){
             minValue = value;
         }
         }
-        return minValue <= 0 ? minValue : 0;
+        return minValue;
     }
 
     public double average(){
