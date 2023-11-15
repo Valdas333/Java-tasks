@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/09_01.ABC/09_01.ABC.iml" filepath="$PROJECT_DIR$/09_01.ABC/09_01.ABC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_02.PersonAndSubclasses/09_02.PersonAndSubclasses.iml" filepath="$PROJECT_DIR$/09_02.PersonAndSubclasses/09_02.PersonAndSubclasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_03.Warehousing/09_03.Warehousing.iml" filepath="$PROJECT_DIR$/09_03.Warehousing/09_03.Warehousing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/09_praktiniai_oop_inheritance.iml" filepath="$PROJECT_DIR$/.idea/09_praktiniai_oop_inheritance.iml" />
+    </modules>
+  </component>
+</project>
