@@ -1,6 +1,6 @@
-package figures;
+package figures_with_abstract;
 
-public class Triangle extends Rectangle{
+public class Triangle extends Rectangle {
 
     private double sidePQ;
 

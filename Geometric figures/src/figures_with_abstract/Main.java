@@ -1,4 +1,4 @@
-package figures;
+package figures_with_abstract;
 
 import java.util.ArrayList;
 
@@ -29,7 +29,8 @@ public class Main {
         System.out.println("Sum of all shape area: " + sumOfArea);
 
         double largestPerimeter = 0;
-        Shape largesPerimeterShape = new Shape();
+        // cast to Rectangle, because Shape is abstract
+        Rectangle largesPerimeterShape = new Rectangle();
         for (Shape i : myShapeList){
             Rectangle myNewRect = (Rectangle) i;
             if (myNewRect instanceof Rectangle){
@@ -46,7 +47,6 @@ public class Main {
             if (shape instanceof Square){
                 System.out.println("Square sides are: " +((Square) shape).getSide() + " of something length");
             }
-
         }
     }
 

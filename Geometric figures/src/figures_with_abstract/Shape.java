@@ -1,9 +1,10 @@
-package figures;
+package figures_with_abstract;
 
-public class Shape {
+public abstract class Shape {
     private String color;
     private boolean filled;
-
+// Tikslinga padaryti abstract metodus kurie yra privalomi klasei,
+// paprasti methodai kaip ir paprastoje tevyneje gali likti tuos kuriuos galima panaudoti
     public Shape(){
         this.color = "red";
         this.filled = true;

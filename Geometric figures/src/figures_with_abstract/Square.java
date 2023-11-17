@@ -1,6 +1,6 @@
-package figures;
+package figures_with_abstract;
 
-public class Square extends Rectangle{
+public class Square extends Rectangle {
 
     public Square() {
     }
