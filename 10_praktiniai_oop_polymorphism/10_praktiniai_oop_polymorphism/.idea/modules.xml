@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/10_01.DifferentKindsOfBoxes/10_01.DifferentKindsOfBoxes.iml" filepath="$PROJECT_DIR$/10_01.DifferentKindsOfBoxes/10_01.DifferentKindsOfBoxes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_02.TacoBoxes/10_02.TacoBoxes.iml" filepath="$PROJECT_DIR$/10_02.TacoBoxes/10_02.TacoBoxes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_03.InterfaceInABox/10_03.InterfaceInABox.iml" filepath="$PROJECT_DIR$/10_03.InterfaceInABox/10_03.InterfaceInABox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_04.Herds/10_04.Herds.iml" filepath="$PROJECT_DIR$/10_04.Herds/10_04.Herds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_05.Animals/10_05.Animals.iml" filepath="$PROJECT_DIR$/10_05.Animals/10_05.Animals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/10_praktiniai_oop_polymorphism.iml" filepath="$PROJECT_DIR$/.idea/10_praktiniai_oop_polymorphism.iml" />
+    </modules>
+  </component>
+</project>
