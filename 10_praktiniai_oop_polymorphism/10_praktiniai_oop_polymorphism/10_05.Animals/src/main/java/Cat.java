@@ -1,4 +1,4 @@
-public class Cat extends Animal implements NoiseCapable{
+public class Cat extends Animal{
     public Cat(String name) {
         super(name);
     }

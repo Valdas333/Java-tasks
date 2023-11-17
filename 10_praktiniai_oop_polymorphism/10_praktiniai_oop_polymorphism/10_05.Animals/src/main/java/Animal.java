@@ -1,4 +1,4 @@
-abstract class Animal{
+abstract class Animal implements NoiseCapable{
 
     private String name;
 
