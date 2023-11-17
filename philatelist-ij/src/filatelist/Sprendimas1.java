@@ -4,6 +4,7 @@ import philatelist.Philatelist;
 import philatelist.PostStamp;
 
 import java.util.ArrayList;
+import java.util.Optional;
 
 public class Sprendimas1 implements Philatelist {
     private ArrayList<PostStamp> myStamps;
@@ -14,7 +15,7 @@ public class Sprendimas1 implements Philatelist {
 
     @Override
     public void addToCollection(PostStamp postStamp) {
-        if (postStamp == null){
+        if (postStamp == null || postStamp.getName() == null || postStamp.getName().isEmpty()){
             throw new IllegalArgumentException();
         }
         if (!myStamps.contains(postStamp)){
@@ -25,7 +26,15 @@ public class Sprendimas1 implements Philatelist {
 
     @Override
     public PostStamp getTheMostExpensivePostStamByMarketValue() {
-        return null;
+        double mostExpensiveValue = myStamps.get(0).getMarketPrice();
+        PostStamp mostExpensiveStamp = null;
+        for (PostStamp stamp: myStamps) {
+            if (stamp.getMarketPrice() > mostExpensiveValue){
+                mostExpensiveStamp = stamp;
+            }
+
+        }
+        return mostExpensiveStamp;
     }
 
     @Override
@@ -40,6 +49,7 @@ public class Sprendimas1 implements Philatelist {
 
     @Override
     public int getNumberOfPostStampsInCollection() {
+
         return myStamps.size();
     }
 }

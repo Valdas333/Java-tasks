@@ -7,10 +7,14 @@ abstract class Animal{
     }
 
     public void eat(){
-        System.out.println("Animal eats");
+        System.out.println(this.name + " eats");
+    }
+
+    public String getName(){
+        return this.name;
     }
 
     public void sleep(){
-        System.out.println("Animal sleeping");
+        System.out.println(this.name + " sleeping");
     }
 }

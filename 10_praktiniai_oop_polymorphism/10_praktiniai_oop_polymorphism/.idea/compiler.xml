@@ -13,12 +13,5 @@
         <module name="10_02.TacoBoxes" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="10_01.DifferentKindsOfBoxes" target="1.8" />
-      <module name="10_02.TacoBoxes" target="1.8" />
-      <module name="10_03.InterfaceInABox" target="1.8" />
-      <module name="10_04.Herds" target="1.8" />
-      <module name="10_05.Animals" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
