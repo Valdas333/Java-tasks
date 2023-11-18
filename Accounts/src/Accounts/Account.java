@@ -39,7 +39,6 @@ public class Account {
         this.id = id;
     }
 
-
     public void setAnnualInterestRate(double annualInterestRate) {
         this.annualInterestRate = annualInterestRate;
     }
