@@ -5,12 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7dffa6-9b65-4dc7-b6ca-a9ce55f4853e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_praktiniai_oop_polymorphism/10_praktiniai_oop_polymorphism/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10_praktiniai_oop_polymorphism/10_praktiniai_oop_polymorphism/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/ibank/Account.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/ibank/Account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/ibank/Bank.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/ibank/Bank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/ibank/BaseBankTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/ibank/BaseBankTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/ibank/class-use/Account.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/ibank/class-use/Account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/ibank/class-use/Bank.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/ibank/class-use/Bank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/ibank/class-use/BaseBankTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/ibank/class-use/BaseBankTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/ibank/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/ibank/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/ibank/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/ibank/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/ibank/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/ibank/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/ibank/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/ibank/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bankas/javadoc/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Bankas/javadoc/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +49,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2YQpJGqVohsdjQJU2nbCW24tb03" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -47,14 +74,31 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Valdemaras/Desktop/techin/JAVA/Finished Java tasks(git)/Bankas/IBank.jar",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Vartotojas/Desktop/darbai/Java-tasks/Bankas/IBank.jar",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.All in Bank (1)">
+  <component name="RunManager" selected="JUnit.All in Bank (3)">
     <configuration name="All in Bank (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bank" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Bank (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bank" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Bank (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bank" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -72,6 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Bank (3)" />
+        <item itemvalue="JUnit.All in Bank (2)" />
         <item itemvalue="JUnit.All in Bank (1)" />
         <item itemvalue="JUnit.All in Bank" />
       </list>

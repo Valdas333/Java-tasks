@@ -2,12 +2,14 @@ import ibank.Account;
 import ibank.Bank;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Collection;
 
 public class BankTaskSolution implements Bank {
+    ArrayList<Account> accounts= new ArrayList<>();
     @Override
     public int getNumberOfAccounts() {
-        return 0;
+        return accounts.size();
     }
 
     @Override
