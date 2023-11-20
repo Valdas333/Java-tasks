@@ -51,7 +51,7 @@ public class CarNumberPricingCalculatorTest {
         Exception exception = assertThrows(IllegalArgumentException.class,
                 () -> carNumberPricingCalculator.calculatePrice("800FGT"));
         assertEquals("Incorrect plate number format. Must be 1-6 symbols" +
-                " latin letters and number combination" );
+                " latin letters and number combination",exception.getMessage() );
     }
 
 

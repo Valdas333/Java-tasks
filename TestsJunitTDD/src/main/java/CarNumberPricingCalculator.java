@@ -1,8 +1,28 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class CarNumberPricingCalculator {
 
+    private boolean hasThreeNumbers(String input) {
+        Pattern pattern = Pattern.compile("\\d{3}");
+        Matcher matcher = pattern.matcher(input);
+        return matcher.matches();
+    }
+
+    private boolean hasThreeChars(String input) {
+        Pattern pattern = Pattern.compile("[A-Z]{3}");
+        Matcher matcher = pattern.matcher(input);
+        return matcher.matches();
+    }
+
+    private boolean correctPlateNumber(String input){
+        return hasThreeChars(input) && hasThreeChars(input);
+    }
+
     public int calculatePrice(String number) {
-        if (number == null || ){
-            throw new IllegalArgumentException("Age cannot be negative");
+        if (number == null || number.length() > 6 || number.length() < 1 || correctPlateNumber(number)){
+            throw new IllegalArgumentException("\"Incorrect plate number format. Must be 1-6 symbols\" +\n" +
+                    "                \" latin letters and number combination\"");
         }
         int numberPrice = 0;
         String[] splitNumber = number.split("");
