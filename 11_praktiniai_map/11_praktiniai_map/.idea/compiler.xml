@@ -6,11 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="11_m_04.IOweYou" />
-        <module name="11_m_03.PrintMeAnotherHashmap" />
-        <module name="11_m_01.Abbreviations" />
-        <module name="11_m_05.VehicleRegistry" />
         <module name="11_m_02.PrintMeMyHashmap" />
+        <module name="11_m_05.VehicleRegistry" />
         <module name="11_m_06.DictionaryOfManyTranslations" />
         <module name="11_m_07.StorageFacility" />
       </profile>
