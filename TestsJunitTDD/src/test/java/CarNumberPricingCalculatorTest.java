@@ -47,12 +47,19 @@ public class CarNumberPricingCalculatorTest {
     }
 
     @Test
-    public void testExceptionThrownThenWrongNumber(){
+    public void testExceptionThrownThenEmptyArgument(){
         Exception exception = assertThrows(IllegalArgumentException.class,
-                () -> carNumberPricingCalculator.calculatePrice("800FGT"));
+                () -> carNumberPricingCalculator.calculatePrice(""));
         assertEquals("Incorrect plate number format. Must be 1-6 symbols" +
                 " latin letters and number combination",exception.getMessage() );
     }
 
+    @Test
+    public void testExceptionThrownThenNullArgument(){
+        Exception exception = assertThrows(IllegalArgumentException.class,
+                () -> carNumberPricingCalculator.calculatePrice(null));
+        assertEquals("Incorrect plate number format. Must be 1-6 symbols" +
+                " latin letters and number combination",exception.getMessage() );
+    }
 
 }

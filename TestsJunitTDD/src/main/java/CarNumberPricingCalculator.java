@@ -10,7 +10,7 @@ public class CarNumberPricingCalculator {
     }
 
     private boolean hasThreeChars(String input) {
-        Pattern pattern = Pattern.compile("[A-Z]{3}");
+        Pattern pattern = Pattern.compile("[A-Z]{3,6}");
         Matcher matcher = pattern.matcher(input);
         return matcher.matches();
     }
@@ -20,9 +20,9 @@ public class CarNumberPricingCalculator {
     }
 
     public int calculatePrice(String number) {
-        if (number == null || number.length() > 6 || number.length() < 1 || correctPlateNumber(number)){
-            throw new IllegalArgumentException("\"Incorrect plate number format. Must be 1-6 symbols\" +\n" +
-                    "                \" latin letters and number combination\"");
+        if (number == null || number.length() > 6 || number.isEmpty() || correctPlateNumber(number)){
+            throw new IllegalArgumentException("Incorrect plate number format. " +
+                    "Must be 1-6 symbols latin letters and number combination");
         }
         int numberPrice = 0;
         String[] splitNumber = number.split("");
