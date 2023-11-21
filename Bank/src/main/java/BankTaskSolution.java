@@ -2,11 +2,13 @@ import ibank.Account;
 import ibank.Bank;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
 
 public class BankTaskSolution implements Bank {
-    ArrayList<Account> accounts= new ArrayList<>();
+    private Map<String, Account> accounts= new HashMap<>();
+
     @Override
     public int getNumberOfAccounts() {
         return accounts.size();
@@ -19,12 +21,15 @@ public class BankTaskSolution implements Bank {
 
     @Override
     public Collection<Account> getAllAccounts() {
+
         return null;
     }
 
     @Override
     public Account openDebitAccount(String s) {
-        return null;
+
+        accounts.put(s, new Account() {
+        });
     }
 
     @Override
