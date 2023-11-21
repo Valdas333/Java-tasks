@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/11_m_01.Abbreviations/11_m_01.Abbreviations.iml" filepath="$PROJECT_DIR$/11_m_01.Abbreviations/11_m_01.Abbreviations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/11_m_02.PrintMeMyHashmap/11_m_02.PrintMeMyHashmap.iml" filepath="$PROJECT_DIR$/11_m_02.PrintMeMyHashmap/11_m_02.PrintMeMyHashmap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/11_m_03.PrintMeAnotherHashmap/11_m_03.PrintMeAnotherHashmap.iml" filepath="$PROJECT_DIR$/11_m_03.PrintMeAnotherHashmap/11_m_03.PrintMeAnotherHashmap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/11_m_04.IOweYou/11_m_04.IOweYou.iml" filepath="$PROJECT_DIR$/11_m_04.IOweYou/11_m_04.IOweYou.iml" />
-      <module fileurl="file://$PROJECT_DIR$/11_m_05.VehicleRegistry/11_m_05.VehicleRegistry.iml" filepath="$PROJECT_DIR$/11_m_05.VehicleRegistry/11_m_05.VehicleRegistry.iml" />
-      <module fileurl="file://$PROJECT_DIR$/11_m_06.DictionaryOfManyTranslations/11_m_06.DictionaryOfManyTranslations.iml" filepath="$PROJECT_DIR$/11_m_06.DictionaryOfManyTranslations/11_m_06.DictionaryOfManyTranslations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/11_m_07.StorageFacility/11_m_07.StorageFacility.iml" filepath="$PROJECT_DIR$/11_m_07.StorageFacility/11_m_07.StorageFacility.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/11_praktiniai_map.iml" filepath="$PROJECT_DIR$/.idea/11_praktiniai_map.iml" />
     </modules>
   </component>

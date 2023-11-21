@@ -15,14 +15,5 @@
         <module name="11_m_07.StorageFacility" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="11_m_01.Abbreviations" target="1.8" />
-      <module name="11_m_02.PrintMeMyHashmap" target="1.8" />
-      <module name="11_m_03.PrintMeAnotherHashmap" target="1.8" />
-      <module name="11_m_04.IOweYou" target="1.8" />
-      <module name="11_m_05.VehicleRegistry" target="1.8" />
-      <module name="11_m_06.DictionaryOfManyTranslations" target="1.8" />
-      <module name="11_m_07.StorageFacility" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

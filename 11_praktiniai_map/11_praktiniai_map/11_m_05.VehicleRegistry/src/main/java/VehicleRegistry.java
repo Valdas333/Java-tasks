@@ -13,9 +13,8 @@ public class VehicleRegistry {
     }
 
     public String get(LicensePlate licensePlate){
-        if (plateOwners.containsKey(licensePlate)){
-            return plateOwners.get(licensePlate);
-        }
-        else return null;
+        return plateOwners.getOrDefault(licensePlate, null);
     }
+
+
 }
