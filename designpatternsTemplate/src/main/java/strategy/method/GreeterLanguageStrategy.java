@@ -2,5 +2,6 @@ package strategy.method;
 
 interface GreeterLanguageStrategy {
 
-    public String getGreetingString();
+    public String getGreetingString(String firstName, String lastName);
+
 }

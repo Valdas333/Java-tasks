@@ -1,7 +1,18 @@
 package strategy.method;
 
-public abstract class Greeter {
+public class Greeter {
 
-    private greeterLanguageStrategy GreeterLanguageStrategy;
+
+    private GreeterLanguageStrategy greeterLanguageStrategy;
+    public void setGreet(GreeterLanguageStrategy greeterLanguageStrategy){
+        this.greeterLanguageStrategy = greeterLanguageStrategy;
+    }
+
+    public void greet(String firstName, String lastName){
+        System.out.println(greeterLanguageStrategy.getGreetingString(firstName, lastName));
+    }
 
 }
+
+
+
