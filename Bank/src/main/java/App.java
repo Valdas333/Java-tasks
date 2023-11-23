@@ -16,6 +16,11 @@ public class App {
         account1.deposit(BigDecimal.valueOf(20));
         System.out.println(seb.getAllAccounts());
         System.out.println(seb.getTotalReserves());
+        account.withdraw(BigDecimal.valueOf(1050));
+        System.out.println(seb.getAllAccounts());
+        System.out.println(seb.getTotalReserves());
+        System.out.println(account.getBalance());
+
     }
 
 }

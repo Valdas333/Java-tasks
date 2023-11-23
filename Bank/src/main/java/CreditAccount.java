@@ -1,28 +1,17 @@
-import ibank.Account;
-
 import java.math.BigDecimal;
-import java.util.Objects;
-import java.util.Random;
 
-public class CreditAccount implements Account {
 
-    private String holderName;
+public class CreditAccount extends Account {
+
     private BigDecimal creditLimit;
-    private String number;
-    private BigDecimal balance;
+    private boolean creditIsTaken;
 
     public CreditAccount(String holderName, BigDecimal creditLimit) {
-        this.holderName = holderName;
+        setHolderName(holderName);
         this.creditLimit = creditLimit;
-        Random rand = new Random();
-        this.number = "C" + rand.nextInt(100);
-        this.balance = new BigDecimal(0);
-
-    }
-
-    @Override
-    public String getNumber() {
-        return number;
+        setNumber("C" + super.getNumber());
+        setBalance(BigDecimal.valueOf(0));
+        this.creditIsTaken = false;
     }
 
     public BigDecimal getCreditLimit() {
@@ -30,57 +19,32 @@ public class CreditAccount implements Account {
     }
 
     @Override
-    public String getHolderName() {
-        return holderName;
-    }
-
-    public void setBalance(BigDecimal balance) {
-        this.balance = balance;
-    }
-
-    @Override
-    public BigDecimal getBalance() {
-        return balance;
-    }
-
-    @Override
-    public boolean deposit(BigDecimal bigDecimal) {
-        this.balance = this.balance.add(bigDecimal);
-        return true;
-    }
-
-    @Override
     public boolean withdraw(BigDecimal amount) {
-        BigDecimal availableBalance = this.balance.add(this.creditLimit);
-
+        BigDecimal availableBalance = getBalance().add(this.creditLimit);
         if (availableBalance.compareTo(amount) >= 0) {
-            this.balance = this.balance.subtract(amount);
+            if (getBalance().subtract(amount).compareTo(BigDecimal.valueOf(0)) > 0){
+                this.creditIsTaken = true;
+            }
+            setBalance(getBalance().subtract(amount));
             return true;
         }
-
         return false;
     }
 
     @Override
     public String toString() {
-        return "CreditAccount{" +
-                "holderName='" + holderName + '\'' +
-                '}';
+        return "CreditAccount," +
+                "holderName=" + getHolderName() + " account number=" +getNumber();
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        CreditAccount that = (CreditAccount) o;
-        return Objects.equals(holderName, that.holderName) &&
-                Objects.equals(creditLimit, that.creditLimit) && Objects.equals(number, that.number) &&
-                Objects.equals(balance, that.balance);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(holderName, creditLimit, number, balance);
+    public BigDecimal getBalance() {
+        if (creditIsTaken){
+            return super.getBalance().negate();
+        }
+        return super.getBalance();
     }
 }
+
+
 
