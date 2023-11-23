@@ -6,7 +6,7 @@ import java.util.*;
 
 public class BankTaskSolution implements Bank {
     private Map<String, Account> accounts = new HashMap<>();
-
+        private Account account;
     @Override
     public int getNumberOfAccounts() {
         return accounts.size();
@@ -33,16 +33,18 @@ public class BankTaskSolution implements Bank {
     @Override
     public Account openDebitAccount(String s) {
         if (!accounts.containsKey(s)) {
-            accounts.put(s, new DebitAccount(s));
-            return new DebitAccount(s);
+            DebitAccount newAccount = new DebitAccount(s);
+            accounts.put(s, newAccount);
+            return newAccount;
         } else return null;
     }
 
     @Override
     public Account openCreditAccount(String s, BigDecimal bigDecimal) {
         if (!accounts.containsKey(s)) {
-            accounts.put(s, new CreditAccount(s, bigDecimal));
-            return new CreditAccount(s, bigDecimal);
+            CreditAccount newCreditAccount = new CreditAccount(s,bigDecimal);
+            accounts.put(s, newCreditAccount);
+            return newCreditAccount;
         } else return null;
     }
 
@@ -63,10 +65,17 @@ public class BankTaskSolution implements Bank {
 
     @Override
     public void closeAccount(Account account) {
-        for (String acc : accounts.keySet()) {
-            if (accounts.get(acc).equals(account)) {
-                accounts.remove(acc);
-            }
-        }
+        accounts.remove(account.getHolderName());
+
+
+//        Iterator<Map.Entry<String, Account>> iterator = accounts.entrySet().iterator();
+//        while (iterator.hasNext()) {
+//            Map.Entry<String, Account> entry = iterator.next();
+//            if (entry.getValue().equals(account)) {
+//                iterator.remove();
+//                break;  // exit the loop after removing the account
+//            }
+//        }
     }
+
 }

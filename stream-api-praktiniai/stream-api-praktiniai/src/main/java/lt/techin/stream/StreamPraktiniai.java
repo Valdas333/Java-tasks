@@ -16,7 +16,7 @@ public class StreamPraktiniai {
     }
 
     public static List<Integer> getAgeFromUsers(List<User> users){
-        throw new UnsupportedOperationException("Not implemented");
+        return users.stream().mapToInt(User::getAge).boxed().collect(Collectors.toList());
     }
 
     public static List<Integer> getDistinctAges(List<User> users){
