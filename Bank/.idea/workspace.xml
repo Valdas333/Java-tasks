@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec7dffa6-9b65-4dc7-b6ca-a9ce55f4853e" name="Changes" comment="" />
+    <list default="true" id="ec7dffa6-9b65-4dc7-b6ca-a9ce55f4853e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../designpatternsTemplate/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../designpatternsTemplate/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,13 +46,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Valdemaras/Desktop/techin/JAVA/Finished Java tasks(git)/11_praktiniai_map/11_praktiniai_map",
+    "last_opened_file_path": "C:/Users/Vartotojas/Desktop/darbai/Java-tasks/Bankas",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.All in Bank (4)">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="Bank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in Bank (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bank" />
       <option name="PACKAGE_NAME" value="" />
@@ -75,14 +84,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Bank (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bank" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All in Bank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bank" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Bank (4)" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.All in Bank (3)" />
         <item itemvalue="JUnit.All in Bank (2)" />
-        <item itemvalue="JUnit.All in Bank (1)" />
         <item itemvalue="JUnit.All in Bank" />
+        <item itemvalue="JUnit.All in Bank (1)" />
       </list>
     </recent_temporary>
   </component>
