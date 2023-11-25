@@ -20,31 +20,31 @@ public class StreamPraktiniai {
     }
 
     public static List<Integer> getDistinctAges(List<User> users){
-        throw new UnsupportedOperationException("Not implemented");
+        return users.stream().map(User::getAge).distinct().collect(Collectors.toList());
     }
 
     public static List<User> getLimitedUserList(List<User> users, int limit){
-        throw new UnsupportedOperationException("Not implemented");
+        return users.stream().limit(limit).collect(Collectors.toList());
     }
 
     public static Integer countUsersOlderThen25(List<User> users){
-        throw new UnsupportedOperationException("Not implemented");
+        return (int) users.stream().map(User::getAge).filter(age -> age > 25).count();
     }
 
     public static List<String> mapToUpperCase(List<String> strings){
-        throw new UnsupportedOperationException("Not implemented");
+        return strings.stream().map(String::toUpperCase).collect(Collectors.toList());
     }
 
     public static Integer sum(List<Integer> integers){
-        throw new UnsupportedOperationException("Not implemented");
+        return integers.stream().mapToInt(Integer::intValue).sum();
     }
 
     public static List<Integer> skip(List<Integer> integers, Integer toSkip){
-        throw new UnsupportedOperationException("Not implemented");
+        return integers.stream().skip(toSkip).collect(Collectors.toList());
     }
 
     public static List<String> getFirstNames(List<String> names){
-        throw new UnsupportedOperationException("Not implemented");
+        return names.stream().map(name -> name.split(" ")[0]).collect(Collectors.toList());
     }
 
     public static List<String> getDistinctLetters(List<String> names){
@@ -56,9 +56,10 @@ public class StreamPraktiniai {
         return users.stream().map(User::getName).collect(Collectors.joining(", "));
     }
 
-    public static double getAverageAge(List<User> users){
-        throw new UnsupportedOperationException("Not implemented");
+    public static double getAverageAge(List<User> users) {
+        return users.stream().mapToInt(User::getAge).average().getAsDouble();
     }
+
 
     public static Integer getMaxAge(List<User> users){
         throw new UnsupportedOperationException("Not implemented");
